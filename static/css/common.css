@@ -1,0 +1,81 @@
+html {
+    background-color: #20202A;
+}
+
+.container {
+    width: 100%;
+    color: #FDFDFD;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    height: 50px;
+}
+
+.illustration {
+    width: 100%;
+    height: 700px;
+    background-color: blue;
+}
+
+.content {
+    width: 80vw;
+    margin: auto auto;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.about_p_container {
+    padding: 20px 0 40px 0;
+}
+
+.about_p {
+    line-height: 1.3em;
+    text-align: center;
+}
+
+.essential_btn_container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.content_link {
+    border: 1px solid #FDFDFD;
+    color: #FDFDFD;
+    border-radius: 7px;
+    text-decoration: none;
+    display: block;
+}
+
+.essential_btn_container a {
+    width: 100px;
+    height: 30px;
+    font-size: .9em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.resume_btn, .linkedin_btn {
+    width: 100px;
+    height: 50px;
+}
+
+.main_btn {
+    width: 70vw;
+    height: 100px;
+    margin: 20px auto 30px auto;
+    padding: 5vw;
+}
+
+.main_btn h3 {
+    margin-bottom: 4vw;
+}
+
+.main_btn:last-child {
+    margin-bottom: 50px;
+}
