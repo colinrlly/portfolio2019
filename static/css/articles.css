@@ -1,0 +1,66 @@
+header {
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.title {
+    color: white;
+    font-size: 2em;
+    font-family: 'lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding-top: 10vh;
+}
+
+.underTitleContainer {
+    display: block;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+
+.underTitle {
+    color: white;
+    font-size: 15px;
+    font-family: 'lato', cursive;
+    font-weight: lighter;
+}
+
+.highlight {
+    color: #08FEB8;
+}
+
+.highlight:hover {
+    text-decoration-color: #08FEB8;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.underTitleSpacer {
+    position: relative;
+    bottom: 5px;
+    margin: 0 5px 0 5px;
+}
+
+.githubLinkContainer {
+    display: inline-block;
+}
+
+@media (min-width: 600px) {
+    .container {
+        padding: 36px;
+    }
+
+    .title {
+        font-size: 4em;
+    }
+    .underTitle {
+        font-size: 1.5em;
+    }
+}
