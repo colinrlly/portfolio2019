@@ -13,9 +13,12 @@ header {
 }
 
 .illustration {
-    width: 100%;
-    height: 700px;
+    width: 2036px;
+    height: 971.2px;
     background-color: blue;
+    position: relative;
+    left: 50%;
+    margin-left: -1018px;
 }
 
 .content {
