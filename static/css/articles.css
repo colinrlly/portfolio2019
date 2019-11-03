@@ -1,0 +1,104 @@
+header {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 250px 1fr;
+}
+
+.home_link {
+    grid-column: 0 / span 0;
+    grid-row: 0 / span 0;
+    font-size: 2.5em;
+    justify-self: right;
+    align-self: center;
+}
+
+.title_container {
+    grid-column: 1 / span 0;
+    grid-row: 0 / span 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.title {
+    color: white;
+    font-size: 2em;
+    font-family: 'merriweather', serif;
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding-top: 10vh;
+    font-weight: lighter;
+}
+
+.under_title_container {
+    display: block;
+    margin-bottom: 10vh;
+    font-family: 'merriweather', serif;
+    text-align: center;
+}
+
+.under_title {
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.highlight {
+    color: #08FEB8;
+}
+
+.highlight:hover {
+    text-decoration-color: #08FEB8;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.under_title_spacer {
+    position: relative;
+    bottom: 5px;
+    margin: 0 5px 0 5px;
+}
+
+.github_link_container {
+    display: inline-block;
+}
+
+.content {
+    display: grid;
+    row-gap: 30px;
+    margin-bottom: 10vw;
+}
+
+p {
+    line-height: 1.3em;
+}
+
+@media (min-width: 600px) {
+    header {
+        grid-template-columns: 1fr 450px 1fr;
+    }
+
+    .home_link {
+        font-size: 4em;
+    }
+
+    .title {
+        font-size: 4em;
+    }
+
+    .under_title {
+        font-size: 1.5em;
+    }
+
+    .content {
+        max-width: 650px;
+        margin-bottom: 50px;
+    }
+
+    p {
+        font-size: 1.2em;
+        line-height: 1.5em;
+    }
+}

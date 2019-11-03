@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/articles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <a href="../../index.html" class="home_link highlight"><</a>
+
+            <div class="title_container">
+                <h1 class="title">RIT Radio Station</h1>
+
+                <div class='under_title_container'>
+                    <span class='under_title'>January, 2018 - August, 2018</span>
+                    <div class='github_link_container'>
+                        <span class='under_title under_title_spacer'>.</span>
+                        <a href="https://github.com/WITR-Radio" class='under_title highlight'>
+                            <span>Github</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="content">
+            <p>
+                WITR 89.7 is RIT’s student run radio station. Independent multi-genre music 
+                has been beamed 25 miles in all directions of RIT since 1961. In addition 
+                to providing great music WITR holds New York State’s second largest vinyl 
+                record library. In 1992, the count was estimated at 30,000 records and 5,000 CD’s.
+            </p>
+            <p>
+                    During my time as the Internal Developer at WITR I rebuilt their 
+                    music logger, maintained their current website, and designed a new 
+                    website. In the past the music logger ran off of long polling to be 
+                    notified of each new song played on air, this approach was not only 
+                    fragile but had a memory leak problem. As a more robust approach I built 
+                    the new logger using web sockets.
+            </p>
+            <img src="../images/witr_main.png">
+            <p>
+                    Not only did the Logger need to work well for the public, DJs also needed 
+                    to be able to manually add songs to it during their sets. Once the Logger 
+                    detects it has been opened in the radio station subnet it shows a UI to add 
+                    and edit tracks. 
+            </p>
+            <img src="">
+            <p>
+                    Working for the student run radio station offered an intersting contrast from 
+                    the monoloth BMW plant. I enjoyed the opportunity to give back to my school 
+                    and engage with new friends on a personal level.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
