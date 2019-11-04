@@ -17,18 +17,18 @@ header {
     text-align: center;
     width: 400px;
     right: 50%;
-    top: 55px;
+    top: 50px;
     margin-right: -200px;
-    font-size: 2.7em;
+    font-size: 2.2em;
     font-family: 'lato', serif;
     color: rgb(72, 72, 109);
 }
 
 .illustration {
     background-image: url("../images/illustration.png");
-    background-size: calc(2546px * .4)  calc(1212px * .4);
+    background-size: calc(2546px * .35)  calc(1212px * .35);
     width: 100%;
-    height: calc(1212px * .4);
+    height: calc(1212px * .35);
     background-position: center center;
     background-repeat: no-repeat;
     overflow-x: hidden;
