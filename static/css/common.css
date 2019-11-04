@@ -12,6 +12,18 @@ header {
     height: 50px;
 }
 
+.greeting {
+    position: absolute;
+    text-align: center;
+    width: 400px;
+    right: 50%;
+    top: 150px;
+    margin-right: -200px;
+    font-size: 4em;
+    font-family: 'lato', serif;
+    color: rgb(72, 72, 109);
+}
+
 .illustration {
     background-image: url("../images/illustration.png");
     width: 100%;
