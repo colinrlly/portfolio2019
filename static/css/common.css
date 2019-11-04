@@ -26,9 +26,10 @@ header {
 
 .illustration {
     background-image: url("../images/illustration.png");
-    background-size: calc(2546px * .35)  calc(1212px * .35);
+    /* background-size: calc(2546px * 1)  calc(1212px * 1); */
+    background-size: 200vw  calc(200vw * .47);
     width: 100%;
-    height: calc(1212px * .35);
+    height: calc(200vw * .47);
     background-position: center center;
     background-repeat: no-repeat;
     overflow-x: hidden;
