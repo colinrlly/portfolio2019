@@ -26,10 +26,11 @@ header {
 
 .illustration {
     background-image: url("../images/illustration.png");
-    /* background-size: calc(2546px * 1)  calc(1212px * 1); */
+    /* background-size: 2546px  1212px; */
     background-size: 200vw  calc(200vw * .47);
     width: 100%;
     height: calc(200vw * .47);
+    /* height: 1212px; */
     background-position: center center;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -109,4 +110,28 @@ img {
 
 .main_btn:last-child {
     margin-bottom: 50px;
+}
+
+@media (min-width: 650px) {
+    .illustration {
+        background-size: 1300px  calc(1300px * .47);
+        height: calc(1300px * .47);
+    }
+}
+
+@media (min-width: 1273px) {
+    .illustration {
+        background-size: calc(vw) calc(125vw * .47);
+        /* background-size: calc(90vh * 2.1) 90vh; */
+        height: 90vh;
+    }
+}
+
+@media (min-width: 2000px) {
+    .illustration {
+        background-size: calc(125vw) calc(125vw * .47);
+        /* background-size: 2546px  1212px; */
+        height: calc(125vw * .47);
+        /* height: 1212px; */
+    }
 }
