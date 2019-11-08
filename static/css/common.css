@@ -36,6 +36,7 @@ header {
 
 .content {
     width: 80vw;
+    max-width: 1200px;
     margin: auto auto;
 }
 
