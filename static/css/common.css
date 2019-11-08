@@ -26,11 +26,9 @@ header {
 
 .illustration {
     background-image: url("../images/illustration.png");
-    /* background-size: 2546px  1212px; */
     background-size: 200vw  calc(200vw * .47);
     width: 100%;
     height: calc(200vw * .47);
-    /* height: 1212px; */
     background-position: center center;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -121,17 +119,28 @@ img {
 
 @media (min-width: 1273px) {
     .illustration {
-        background-size: calc(vw) calc(125vw * .47);
-        /* background-size: calc(90vh * 2.1) 90vh; */
-        height: 90vh;
+        background-size: calc(2546px * .7)  calc(1212px * .7);
+        height: calc(1212px * .7);
+    }
+}
+
+@media (min-width: 1700px) {
+    .illustration {
+        background-size: calc(2546px * .8)  calc(1212px * .8);
+        height: calc(1212px * .8);
     }
 }
 
 @media (min-width: 2000px) {
     .illustration {
-        background-size: calc(125vw) calc(125vw * .47);
-        /* background-size: 2546px  1212px; */
-        height: calc(125vw * .47);
-        /* height: 1212px; */
+        background-size: calc(2546px) calc(1212px);
+        height: calc(1212px);
+    }
+}
+
+@media (min-width: 2500px) {
+    .illustration {
+        background-size: calc(2546px * 1.2) calc(1212px * 1.2);
+        height: calc(1212px * 1.2);
     }
 }
