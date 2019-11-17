@@ -1,0 +1,135 @@
+.parallax-container {
+    position: fixed;
+    overflow: visible;
+    width: 100%;
+    height: calc(200vw * .47);
+}
+
+.parallax-layer {
+    width: 100%;
+    height: calc(200vw * .47);
+    position: fixed;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 200vw calc(200vw * .47);
+}
+
+.layer-1 {
+    z-index: 5;
+    background-image: url('../images/illustration_l8.png');
+}
+
+.layer-2 {
+    z-index: 10;
+    background-image: url('../images/illustration_l7.png');
+}
+
+.layer-3 {
+    z-index: 15;
+    background-image: url('../images/illustration_l6.png');
+}
+
+.layer-4 {
+    z-index: 20;
+    background-image: url('../images/illustration_l5.png');
+}
+
+.layer-5 {
+    z-index: 25;
+    background-image: url('../images/illustration_l4.png');
+}
+
+.layer-6 {
+    z-index: 30;
+    background-image: url('../images/illustration_l3.png');
+}
+
+.layer-7 {
+    z-index: 35;
+    background-image: url('../images/illustration_l2.png');
+}
+
+.layer-8 {
+    z-index: 40;
+    background-image: url('../images/illustration_l1.png');
+}
+
+.content_container {
+    position: absolute;
+    top: calc(200vw * .47);
+    background: #20202A;
+    left: 0;
+    right: 0;
+    height: calc(200vw * .47);
+    max-height: 1000px;
+}
+
+@media (min-width: 650px) {
+    .parallax-container {
+        height: calc(1300px * .47);
+    }
+    .parallax-layer {
+        background-size: 1300px calc(1300px * .47);
+        height: calc(1300px * .47);
+    }
+    .content_container {
+        top: calc(1300px * .47);
+        height: calc(1300px * .47);
+    }
+}
+
+@media (min-width: 1273px) {
+    .parallax-container {
+        height: calc(1212px * .7);
+    }
+    .parallax-layer {
+        background-size: calc(2546px * .7) calc(1212px * .7);
+        height: calc(1212px * .7);
+    }
+    .content_container {
+        top: calc(1212px * .7);
+        height: calc(1212px * .7);
+    }
+}
+
+@media (min-width: 1700px) {
+    .parallax-container {
+        height: calc(1212px * .8);
+    }
+    .parallax-layer {
+        background-size: calc(2546px * .8) calc(1212px * .8);
+        height: calc(1212px * .8);
+    }
+    .content_container {
+        top: calc(1212px * .8);
+        height: calc(1212px * .8);
+    }
+}
+
+@media (min-width: 2000px) {
+    .parallax-container {
+        height: calc(1212px);
+    }
+    .parallax-layer {
+        background-size: calc(2546px) calc(1212px);
+        height: calc(1212px);
+    }
+    .content_container {
+        top: calc(1212px);
+        height: calc(1212px);
+    }
+}
+
+@media (min-width: 2500px) {
+    .parallax-container {
+        height: calc(1212px * 1.2);
+    }
+    .parallax-layer {
+        background-size: calc(2546px * 1.2) calc(1212px * 1.2);
+        height: calc(1212px * 1.2);
+    }
+    .content_container {
+        top: calc(1212px * 1.2);
+        height: calc(1212px * 1.2);
+    }
+}
