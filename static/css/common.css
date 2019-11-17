@@ -13,30 +13,6 @@ header {
     height: 50px;
 }
 
-
-/* 
-.greeting {
-    position: absolute;
-    text-align: center;
-    width: 400px;
-    right: 50%;
-    top: 40px;
-    margin-right: -200px;
-    font-size: 1.7em;
-    font-family: 'lato', serif;
-    color: rgb(72, 72, 109);
-} */
-
-.illustration {
-    background-image: url("../images/illustration.png");
-    background-size: 200vw calc(200vw * .47);
-    width: 100%;
-    height: calc(200vw * .47);
-    background-position: center center;
-    background-repeat: no-repeat;
-    overflow-x: hidden;
-}
-
 .content {
     width: 80vw;
     max-width: 1200px;
@@ -101,6 +77,10 @@ img {
     grid-gap: 20px 20px;
 }
 
+.main_btns {
+    margin-bottom: 100px;
+}
+
 .main_btn {
     padding: 20px;
     height: 100px;
@@ -115,59 +95,4 @@ img {
 
 .main_btn:last-child {
     margin-bottom: 50px;
-}
-
-@media (min-width: 650px) {
-    .illustration {
-        background-size: 1300px calc(1300px * .47);
-        height: calc(1300px * .47);
-    }
-    .greeting {
-        top: 50px;
-        font-size: 2em;
-    }
-}
-
-@media (min-width: 1273px) {
-    .illustration {
-        background-size: calc(2546px * .7) calc(1212px * .7);
-        height: calc(1212px * .7);
-    }
-    .greeting {
-        top: 70px;
-        font-size: 2.5em;
-    }
-}
-
-@media (min-width: 1700px) {
-    .illustration {
-        background-size: calc(2546px * .8) calc(1212px * .8);
-        height: calc(1212px * .8);
-    }
-    .greeting {
-        top: 80px;
-        font-size: 2.9em;
-    }
-}
-
-@media (min-width: 2000px) {
-    .illustration {
-        background-size: calc(2546px) calc(1212px);
-        height: calc(1212px);
-    }
-    .greeting {
-        top: 100px;
-        font-size: 3.2em;
-    }
-}
-
-@media (min-width: 2500px) {
-    .illustration {
-        background-size: calc(2546px * 1.2) calc(1212px * 1.2);
-        height: calc(1212px * 1.2);
-    }
-    .greeting {
-        top: 130px;
-        font-size: 3.5em;
-    }
 }
