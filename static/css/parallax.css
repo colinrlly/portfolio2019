@@ -72,20 +72,20 @@
         height: calc(1300px * .47);
     }
     .content_container {
-        top: calc(1300px * .47);
+        top: calc(1295px * .47);
     }
 }
 
 @media (min-width: 1273px) {
     .parallax-container {
-        height: calc(1212px * .7);
+        height: calc(1207px * .7);
     }
     .parallax-layer {
         background-size: calc(2546px * .7) calc(1212px * .7);
         height: calc(1212px * .7);
     }
     .content_container {
-        top: calc(1212px * .7);
+        top: calc(1207px * .7);
     }
 }
 
@@ -98,7 +98,7 @@
         height: calc(1212px * .8);
     }
     .content_container {
-        top: calc(1212px * .8);
+        top: calc(1207px * .8);
     }
 }
 
@@ -111,7 +111,7 @@
         height: calc(1212px);
     }
     .content_container {
-        top: calc(1212px);
+        top: calc(1207px);
     }
 }
 
@@ -124,6 +124,6 @@
         height: calc(1212px * 1.2);
     }
     .content_container {
-        top: calc(1212px * 1.2);
+        top: calc(1207px * 1.2);
     }
 }
